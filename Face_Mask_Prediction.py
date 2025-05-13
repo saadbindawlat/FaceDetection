@@ -19,7 +19,7 @@ Original file is located at
 # API to fetch the dataset from Kaggle
 !kaggle datasets download -d omkargurav/face-mask-dataset
 
-# extracting the compessed Dataset
+# extracting the compessed Datasets
 from zipfile import ZipFile
 dataset = '/content/face-mask-dataset.zip'
 
